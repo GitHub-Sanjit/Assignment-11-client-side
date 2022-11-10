@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "635a0c0b64a6d231228942ae",
+    "service_id": "04",
+    "title": "Air-Conditioning",
+    "img": "https://motoristprod.s3.amazonaws.com/uploads/redactor_rails/picture/data/6698/iStock-990790186.jpg",
+    "price": "150.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "_id": "635a0c0b64a6d231228942af",
+    "service_id": "05",
+    "title": "Body Painting",
+    "img": "https://img.freepik.com/premium-photo/close-up-image-professional-car-painting-focus-foreground_35534-536.jpg?w=2000",
+    "price": "500.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "_id": "635b591a1dafe382a9da8c96",
+    "service_id": "01",
+    "title": "Full Body Repair",
+    "img": "https://media.istockphoto.com/id/157580103/photo/auto-body-mechanic-disassembling-damaged-vehicle.jpg?s=612x612&w=0&k=20&c=yN3spq82HFZSR4MajSxwmBd-DS8Paf2FBxO-zTHzBdE=",
+    "price": "200.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "_id": "635b5afc1dafe382a9da8c98",
+    "service_id": "02",
+    "title": "Break Repair",
+    "img": "https://www.superiorcars.co.uk/catalog/view/theme/default/image/brake-repair02.jpg",
+    "price": "150.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "_id": "635b5b691dafe382a9da8c99",
+    "service_id": "03",
+    "title": "Engine-Diognostic",
+    "img": "https://media.istockphoto.com/photos/hands-of-car-mechanic-working-in-auto-repair-service-picture-id693170166?k=20&m=693170166&s=612x612&w=0&h=opS86Rlk5bwMF5-ey5GZcDHssSw3wM2RtZ8baUu74GE=",
+    "price": "65.00",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  },
+  {
+    "_id": "635b5ba51dafe382a9da8c9a",
+    "service_id": "06",
+    "title": "Oil-Changing",
+    "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-182788481-1554758977.jpg",
+    "price": "31.66",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+  }
+]
