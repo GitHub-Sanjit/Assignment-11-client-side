@@ -1,17 +1,20 @@
 import React from "react";
 import img from "../../../assets/banner/banner2.jpg";
+import "./Banner.css";
 
 const Banner = () => {
   return (
     <div className="carousel w-full">
-      <div id="slide1" className="carousel-item relative w-full">
-        <img src={img} className="w-full" alt="" />
+      <div className="carousel-item relative w-full">
+        <div className="banner-img w-full">
+          <img className="w-full  " src={img} alt="" />
+        </div>
         <div className="absolute flex-col justify-start transform-translate-y-1/2 top-1/4 left-24 text-white">
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold mb-4">
             We Take <br />
             Care of People
           </h1>
-          <h1 className="text-2xl">
+          <h1 className="text-3xl">
             By Taking Care of <br />
             Their Car
           </h1>
