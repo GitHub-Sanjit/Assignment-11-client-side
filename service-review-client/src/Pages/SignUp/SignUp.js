@@ -1,15 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Login = () => {
-  const handleLogin = (event) => {
+const SignUp = () => {
+  const handleSignUp = (event) => {
     event.preventDefault();
   };
 
   return (
     <div className="hero  bg-base-200">
       <div className="card  w-1/2  shadow-2xl bg-base-100 py-20">
-        <form onSubmit={handleLogin} className="card-body">
+        <form onSubmit={handleSignUp} className="card-body">
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Your Name</span>
+            </label>
+            <input
+              name="name"
+              type="name"
+              placeholder="Name"
+              className="input input-bordered"
+            />
+          </div>
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
@@ -34,14 +45,25 @@ const Login = () => {
               required
             />
           </div>
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Confirm Password</span>
+            </label>
+            <input
+              name="password"
+              type="password"
+              placeholder="password"
+              className="input input-bordered"
+            />
+          </div>
           <div className="form-control mt-6">
-            <input className="btn btn-primary" type="submit" value="Login" />
+            <input className="btn btn-primary" type="submit" value="Sign up" />
           </div>
         </form>
         <p className="text-center">
-          New to AutoPress Services?{" "}
-          <Link className="text-orange-600 font-semibold" to="/signup">
-            Sign Up
+          Already Have an Account?
+          <Link className="text-orange-600 font-semibold" to="/login">
+            Login
           </Link>
         </p>
       </div>
@@ -49,4 +71,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;
