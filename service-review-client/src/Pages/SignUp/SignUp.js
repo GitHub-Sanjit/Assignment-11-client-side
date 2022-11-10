@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
 
 const SignUp = () => {
+  const { createUser } = useContext(AuthContext);
+
   const handleSignUp = (event) => {
     event.preventDefault();
+    const form = event.target;
+    // const name = form.name.value;
+    const email = form.email.value;
+    const password = form.password.value;
+
+    createUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((err) => console.error(err));
   };
 
   return (
@@ -45,7 +59,7 @@ const SignUp = () => {
               required
             />
           </div>
-          <div className="form-control">
+          {/* <div className="form-control">
             <label className="label">
               <span className="label-text">Confirm Password</span>
             </label>
@@ -55,7 +69,7 @@ const SignUp = () => {
               placeholder="password"
               className="input input-bordered"
             />
-          </div>
+          </div> */}
           <div className="form-control mt-6">
             <input className="btn btn-primary" type="submit" value="Sign up" />
           </div>
