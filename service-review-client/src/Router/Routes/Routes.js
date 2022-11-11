@@ -29,13 +29,17 @@ const router = createBrowserRouter([
         path: "/myReview/:id",
         element: <MyReviews></MyReviews>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/myReview/${params.id}`),
+          fetch(
+            `https://b6a11-service-review-server-side-sanjitweb479.vercel.app/myReview/${params.id}`
+          ),
       },
       {
         path: "/service/:id",
         element: <ServiceDetails></ServiceDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/myReview/${params.id}`),
+          fetch(
+            `https://b6a11-service-review-server-side-sanjitweb479.vercel.app/myReview/${params.id}`
+          ),
       },
       {
         path: "/addServices",

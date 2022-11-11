@@ -26,13 +26,16 @@ const MyReviews = () => {
       message: message,
     };
 
-    fetch("http://localhost:5000/reviews", {
-      method: "POST",
-      headers: {
-        "content-type": "application.json",
-      },
-      body: JSON.stringify(review),
-    })
+    fetch(
+      "https://b6a11-service-review-server-side-sanjitweb479.vercel.app/reviews",
+      {
+        method: "POST",
+        headers: {
+          "content-type": "application.json",
+        },
+        body: JSON.stringify(review),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
