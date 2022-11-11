@@ -1,17 +1,31 @@
+import { GoogleAuthProvider } from "firebase/auth";
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/logo/logo (1).png";
 import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 
 const Header = () => {
+  const googleAuthProvider = new GoogleAuthProvider();
+
+  const { user, logOut } = useContext(AuthContext);
+
   const menuItems = (
     <>
       <li className="font-semibold">
         <Link to="/">Home</Link>
       </li>
-      <li className="font-semibold">
-        <Link to="/login">Login</Link>
-      </li>
+      {user?.email ? (
+        <li className="font-semibold">
+          <Link to="/">
+            <button onClick={logOut}>LogOut</button>
+          </Link>
+        </li>
+      ) : (
+        <li className="font-semibold">
+          <Link to="/login">Login</Link>
+        </li>
+      )}
+
       <li className="font-semibold">
         <Link to="/blogs">Blogs</Link>
       </li>

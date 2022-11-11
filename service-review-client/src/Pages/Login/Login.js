@@ -1,9 +1,20 @@
+import { GoogleAuthProvider } from "firebase/auth";
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
+  const { signIn, providerLogin } = useContext(AuthContext);
+  const googleProvider = new GoogleAuthProvider();
+
+  const handleGoogleLogin = () => {
+    providerLogin(googleProvider)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((err) => console.error(err));
+  };
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -52,6 +63,14 @@ const Login = () => {
             <input className="btn btn-primary" type="submit" value="Login" />
           </div>
         </form>
+        <div className="text-center">
+          <button
+            className=" text-orange-600 font-semibold border-rounded-lg btn btn-outline btn-accent"
+            onClick={handleGoogleLogin}
+          >
+            Login with Google
+          </button>
+        </div>
         <p className="text-center">
           New to AutoPress Services?{" "}
           <Link className="text-orange-600 font-semibold" to="/signup">
