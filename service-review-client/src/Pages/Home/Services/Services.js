@@ -1,8 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   const [services, setServices] = useState([]);
+  const { user } = useContext(AuthContext);
+
+  const addService = () => {
+    if (user?.email) {
+      return (
+        <Link to="/addServices">
+          <button className="btn btn-primary">Add Services</button>
+        </Link>
+      );
+    }
+  };
 
   useEffect(() => {
     fetch("http://localhost:5000/services")
@@ -25,6 +38,8 @@ const Services = () => {
           <ServiceCard key={service._id} service={service}></ServiceCard>
         ))}
       </div>
+      <button></button>
+      {/* <div>{addService()}</div> */}
     </div>
   );
 };

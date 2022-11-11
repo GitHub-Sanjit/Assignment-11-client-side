@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/logo/logo (1).png";
+import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 
 const Header = () => {
   const menuItems = (
@@ -13,6 +14,9 @@ const Header = () => {
       </li>
       <li className="font-semibold">
         <Link to="/blogs">Blogs</Link>
+      </li>
+      <li className="font-semibold">
+        <Link to="/addServices">Add Services</Link>
       </li>
     </>
   );
