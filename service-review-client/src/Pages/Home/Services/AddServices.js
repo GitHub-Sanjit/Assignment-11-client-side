@@ -32,6 +32,7 @@ const AddServices = () => {
       .then((data) => {
         console.log(data);
         if (data.acknowledge) {
+          alert("Service Added Successfully");
           form.reset();
         }
       })

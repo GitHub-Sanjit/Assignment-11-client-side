@@ -37,6 +37,7 @@ const MyReviews = () => {
       .then((data) => {
         console.log(data);
         if (data.acknowledge) {
+          alert("Review Added Successfully");
           form.reset();
         }
       })
