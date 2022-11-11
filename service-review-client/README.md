@@ -1,6 +1,6 @@
 ## Website Name : AutoPress
 
-## Live Site Link : https://online-mentor-19470.web.app/
+## Live Site Link : https://auto-press.web.app
 
 ## Framework/Library
 
@@ -10,6 +10,6 @@
 
 ## ` react-router-dom` for implement routing system
 
-## ` tailwind, daisyUI` for design
+## ` tailwind, daisy UI` for design
 
 ## ` firebase/auth` for Authentication
